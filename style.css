@@ -1,0 +1,70 @@
+*{font-family: sans-serif;
+
+}
+
+body {
+    min-height: 5px;
+    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+    background-color: #98FB98;
+    background-size: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    height: 100vh;   
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2px;
+    height:60vh;       
+  }
+  
+  .page-title {
+    color:#000000;
+    margin: 0 0 5px;
+    top: 5px;
+  }
+  
+  .page-subtitle {
+    color:#000000;
+    margin-top: 10px;
+  }
+  
+  .page-logo {
+    width: 100px;
+    position: relative;
+    top: 130%;
+    
+       
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+  }
+  .campo{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    
+  }
+  .botao{
+      font-size: 1em;
+      background: #40E0D0;
+      border: 0;
+      margin-bottom: 1em;
+      color: #ffffff;
+      padding: 0.2em 0.3em;
+      box-shadow: 2px 2px px rgba(0,0,0,0.2);
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      margin-right: 50%;
+      transform: translate(-50%, -50%);
+      width: 90px;
+          
+  }
